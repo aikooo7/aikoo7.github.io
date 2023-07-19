@@ -14,9 +14,14 @@ html, body {
   position: absolute;
   left:33%;
   bottom: 50%;
+}
 
+.blurr {
+
+  filter: blur(8px);
 
 }
+
 
 canvas{
 
@@ -56,3 +61,15 @@ canvas{
 
   
 }
+
+.text {
+
+  color: white;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left:35%;
+  bottom: 40%;
+}
+

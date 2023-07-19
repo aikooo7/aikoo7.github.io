@@ -3,28 +3,28 @@
 <html>
 <head>
 <link rel="stylesheet" href="styling/style.css">
-<body>
+<body onclick="play">
 <main>
   <canvas id="canvas"></canvas>
   <h1 id="name">aiko</h1>
-  <audio src="audio/music.mp3" id="music" autoplay loop>
+  <audio src="audio/music.mp3" id="music">
   </audio>
   <div class="button_style">
   <a href="https://github.com/aikooo7" target="_blank" title="My Github">
 
-  <button class="social" > github </button>
+  <button class="social" id="github" > github </button>
         
   </a>
 
   <a href="https://discord.gg/vacban" target="_blank" title="Vacban Server">
 
-  <button class="social" > vacban </button>
+  <button class="social" id="vacban"> vacban </button>
         
   </a>
 
    <a href="bio.html" target="_self" title="My bio">
 
-  <button class="social" > bio </button>
+  <button class="social" id="bio"> bio </button>
         
   </a>
 
@@ -134,7 +134,9 @@ function tick() {
 
 tick();
 
-  </script>
+</script>
+
+<script src="Scripts/music.js"></script>
     
   </div>
 </main> 
